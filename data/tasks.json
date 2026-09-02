@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1779223259282,
+    "description": "Rappel à 20h42",
+    "priority": "normal",
+    "done": false,
+    "createdAt": "19/05/2026 20:40:59",
+    "completedAt": null,
+    "remindAt": "2026-05-19T20:42:00.000Z",
+    "reminderSentAt": "2026-05-20T15:27:05.030Z"
+  },
+  {
+    "id": 1779290376604,
+    "description": "Rappel de sourire à 15h21",
+    "priority": "normal",
+    "done": false,
+    "createdAt": "20/05/2026 15:19:36",
+    "completedAt": null,
+    "remindAt": "2026-05-20T15:21:00.000Z",
+    "reminderSentAt": "2026-05-20T15:27:05.030Z"
+  },
+  {
+    "id": 1779291160103,
+    "description": "Rappeler à N9uf_S de regarder devant lui quand il marche",
+    "priority": "normal",
+    "done": false,
+    "createdAt": "20/05/2026 15:32:40",
+    "completedAt": null,
+    "remindAt": null,
+    "reminderSentAt": null,
+    "chatId": "120363408987343947@g.us",
+    "requesterJid": "260468979548235@lid",
+    "requesterName": "இ𝙽9𝚄𝙵_𝚂✘"
+  },
+  {
+    "id": 1779291318774,
+    "description": "Rappel à 15h37 de regarder devant soi quand tu marches",
+    "priority": "normal",
+    "done": false,
+    "createdAt": "20/05/2026 15:35:18",
+    "completedAt": null,
+    "remindAt": "2026-05-20T15:37:00.000Z",
+    "reminderSentAt": "2026-05-20T15:37:13.373Z",
+    "chatId": "120363408987343947@g.us",
+    "requesterJid": "260468979548235@lid",
+    "requesterName": "இ𝙽9𝚄𝙵_𝚂✘"
+  },
+  {
+    "id": 1779301919483,
+    "description": "Rappeler à N9uf_S de rentrer à la maison à 18h33",
+    "priority": "normal",
+    "done": false,
+    "createdAt": "20/05/2026 18:31:59",
+    "completedAt": null,
+    "remindAt": "2026-05-20T18:33:00.000Z",
+    "reminderSentAt": "2026-05-20T18:33:14.478Z",
+    "chatId": "120363426459232422@g.us",
+    "requesterJid": "260468979548235@lid",
+    "requesterName": "இ𝙽9𝚄𝙵_𝚂✘"
+  },
+  {
+    "id": 1779301957950,
+    "description": "Rappeler à N9uf_S de rentrer à la maison à 18h33",
+    "priority": "normal",
+    "done": false,
+    "createdAt": "20/05/2026 18:32:37",
+    "completedAt": null,
+    "remindAt": "2026-05-20T18:33:00.000Z",
+    "reminderSentAt": "2026-05-20T18:33:14.478Z",
+    "chatId": "120363426459232422@g.us",
+    "requesterJid": "260468979548235@lid",
+    "requesterName": "இ𝙽9𝚄𝙵_𝚂✘"
+  },
+  {
+    "id": 1779302058123,
+    "description": "Rappel à N9uf_S à 18h35 en privé",
+    "priority": "normal",
+    "done": false,
+    "createdAt": "20/05/2026 18:34:18",
+    "completedAt": null,
+    "remindAt": "2026-05-20T18:35:00.000Z",
+    "reminderSentAt": "2026-05-20T18:35:14.482Z",
+    "chatId": "120363426459232422@g.us",
+    "requesterJid": "260468979548235@lid",
+    "requesterName": "இ𝙽9𝚄𝙵_𝚂✘"
+  }
+]
