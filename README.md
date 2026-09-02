@@ -10,15 +10,15 @@ Ce bot WhatsApp est personnalisé pour la gestion de groupe, les commandes fun e
 
 <div align="center"> 
   <a href="https://youtube.com/@LUNA-CORP"> 
-    <img src="https://github.com/LUNARIS-CORP/BLUE-XMD/blob/main/assets/bot_image.jpg" alt="LUNARIS" height="300"> 
+    <img src="https://github.com/LUNARIS-CORP/BLUE_XMD/blob/main/assets/bot_image.jpg" alt="LUNARIS" height="300"> 
   </a> 
 </div>
 
 <div align="center">
   <img src="https://img.shields.io/github/followers/LUNARIS-CORP?style=for-the-badge&label=Followers" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/LUNARIS-CORP/BLUE-XMD?style=for-the-badge&label=Stars" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/LUNARIS-CORP/BLUE-XMD?style=for-the-badge&label=Forks" alt="Forks"/>
-  <img src="https://img.shields.io/github/watchers/LUNARIS-CORP/BLUE-XMD?style=for-the-badge&label=Watchers" alt="Watchers"/>
+  <img src="https://img.shields.io/github/stars/LUNARIS-CORP/BLUE_XMD?style=for-the-badge&label=Stars" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/LUNARIS-CORP/BLUE_XMD?style=for-the-badge&label=Forks" alt="Forks"/>
+  <img src="https://img.shields.io/github/watchers/LUNARIS-CORP/BLUE_XMD?style=for-the-badge&label=Watchers" alt="Watchers"/>
 </div>
 
 ---
