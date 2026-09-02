@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Bitcount Grid Double&size=48&pause=1000&color=1E90FF&center=true&width=900&height=100&lines=BLUE_XMD;WhatsApp+Bot;Developed+by+LUNARIS" alt="BLUE_XMD title" />
+    <img src="https://readme-typing-svg.demolab.com?font=BitcountGridDouble&size=48&pause=1000&color=1E90FF&center=true&width=900&height=100&lines=BLUE_XMD;WhatsApp+Bot;Developed+by+LUNARIS" alt="BLUE_XMD title" />
   </a>
 </div>
 
