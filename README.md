@@ -53,17 +53,39 @@ This project is developed and maintained by LUNARIS.
 
 ## Requirements
 
-- Node.js
+- Node.js 18+
 - npm
+- Git
 - A WhatsApp account for connection
 
 ## Installation
+
+### Recommended environment
+
+Use a desktop or VPS for the most stable setup:
 
 ```bash
 git clone https://github.com/LUNARIS-CORP/BLUE_XMD.git
 cd BLUE_XMD
 npm install
+node index.js
 ```
+
+### Termux (Android)
+
+On Android/Termux, `sqlite3` is the dependency that usually breaks the install. Remove it before installing the project dependencies:
+
+```bash
+pkg update && pkg upgrade -y
+pkg install git nodejs-lts python build-essential clang make -y
+cd ~/BLUE_XMD
+npm uninstall sqlite3
+rm -rf node_modules package-lock.json
+npm install --legacy-peer-deps
+node index.js
+```
+
+> Note: the best environment for this project is still a desktop Linux, Windows, or VPS. Termux can work for testing, but native dependencies like `sqlite3` are often unstable on Android.
 
 ## Run the bot
 
