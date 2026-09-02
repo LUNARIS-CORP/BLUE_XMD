@@ -3,7 +3,12 @@ const { writeExifImg } = require('../lib/exif');
 const delay = (time) => new Promise((res) => setTimeout(res, time));
 const fs = require('fs');
 const path = require('path');
-const sharp = require('sharp');
+let sharp = null;
+try {
+  sharp = require('sharp');
+} catch (err) {
+  console.warn('sharp indisponible, conversion Telegram sticker limitée.');
+}
 const webp = require('node-webpmux');
 const crypto = require('crypto');
 const { exec } = require('child_process');
@@ -11,6 +16,13 @@ const settings = require('../settings');
 
 async function stickerTelegramCommand(sock, chatId, msg) {
   try {
+    if (!sharp) {
+      await sock.sendMessage(chatId, {
+        text: "❌ Cette commande nécessite sharp, qui n'est pas disponible sur cet environnement."
+      });
+      return;
+    }
+
     // Get the URL from message
     const text = msg.message?.conversation?.trim() ||
     msg.message?.extendedTextMessage?.text?.trim() || '';

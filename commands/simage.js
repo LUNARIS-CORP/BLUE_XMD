@@ -1,4 +1,9 @@
-const sharp = require('sharp');
+let sharp = null;
+try {
+  sharp = require('sharp');
+} catch (err) {
+  console.warn('sharp indisponible, commande simage désactivée.');
+}
 const fs = require('fs');
 const fsPromises = require('fs/promises');
 const fse = require('fs-extra');
@@ -21,6 +26,11 @@ const scheduleFileDeletion = (filePath) => {
 
 const convertStickerToImage = async (sock, quotedMessage, chatId) => {
   try {
+    if (!sharp) {
+      await sock.sendMessage(chatId, { text: "La commande simage nécessite sharp, qui n'est pas disponible sur cet environnement." });
+      return;
+    }
+
     const stickerMessage = quotedMessage.stickerMessage;
     if (!stickerMessage) {
       await sock.sendMessage(chatId, { text: "R\xE9pondez \xE0 un autocollant avec .simage pour le convertir." });

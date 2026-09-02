@@ -1,9 +1,21 @@
 const { downloadMediaMessage } = require('@whiskeysockets/baileys');
 const axios = require('axios');
-const sharp = require('sharp');
+let sharp = null;
+try {
+  sharp = require('sharp');
+} catch (err) {
+  console.warn('sharp indisponible, commande blur désactivée.');
+}
 
 async function blurCommand(sock, chatId, message, quotedMessage) {
   try {
+    if (!sharp) {
+      await sock.sendMessage(chatId, {
+        text: "❌ La commande blur nécessite sharp, qui n'est pas disponible sur cet environnement."
+      }, { quoted: message });
+      return;
+    }
+
     // Get the image to blur
     let imageBuffer;
 

@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Project-BLUE_XMD-1E90FF?style=for-the-badge" alt="Project BLUE_XMD" />
+  <img src="https://img.shields.io/badge/Projet-BLUE_XMD-1E90FF?style=for-the-badge" alt="Projet BLUE_XMD" />
   <img src="https://img.shields.io/github/stars/LUNARIS-CORP/BLUE_XMD?style=for-the-badge" alt="GitHub stars" />
   <img src="https://img.shields.io/github/forks/LUNARIS-CORP/BLUE_XMD?style=for-the-badge" alt="GitHub forks" />
   <img src="https://img.shields.io/github/watchers/LUNARIS-CORP/BLUE_XMD?style=for-the-badge" alt="GitHub watchers" />
@@ -15,96 +15,140 @@
 
 <div align="center">
   <a href="https://t.me/LUNARISCORP">
-    <img src="https://img.shields.io/badge/Telegram-Join%20Channel-0088CC?style=for-the-badge&logo=telegram" alt="Telegram" />
+    <img src="https://img.shields.io/badge/Telegram-Rejoindre%20le%20canal-0088CC?style=for-the-badge&logo=telegram" alt="Telegram" />
   </a>
   <a href="https://whatsapp.com/channel/0029VbD9z1YJf05TqVGLNo3c">
-    <img src="https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?style=for-the-badge&logo=whatsapp" alt="WhatsApp" />
+    <img src="https://img.shields.io/badge/WhatsApp-Rejoindre%20le%20canal-25D366?style=for-the-badge&logo=whatsapp" alt="WhatsApp" />
   </a>
 </div>
 
-A WhatsApp bot project built for group management, automation, moderation, and practical daily use.
-
-BLUE_XMD is designed to be flexible, lightweight, and easy to customize. It uses the Baileys library to connect to WhatsApp and supports automated workflows through commands and bot logic.
+BLUE_XMD est un bot WhatsApp développé par LUNARIS-CORP. Il est conçu pour la gestion de groupes, la modération, l’automatisation, les commandes utiles, les stickers, les outils médias et plusieurs fonctions pratiques au quotidien.
 
 <div align="center">
   <img src="assets/bot_image.jpg" alt="BLUE_XMD banner" width="520" />
 </div>
 
-## Developed by
+## Développeur
 
-This project is developed and maintained by LUNARIS.
+Ce projet est développé et maintenu par LUNARIS.
 
-## Features
+## Fonctionnalités
 
-- Group management tools
-- Admin controls and moderation
-- Tag and mention features
-- Fun and entertainment commands
-- Sticker and media utilities
-- Automation for WhatsApp workflows
+- Gestion de groupes WhatsApp
+- Commandes admin et modération
+- Anti-lien, anti-tag, anti-suppression et anti-mots interdits
+- Système d’avertissements
+- Commandes fun et jeux
+- Stickers et outils médias
+- Téléchargement audio/vidéo
+- Commandes IA selon la configuration
+- Automatisation des messages, réactions et statuts
 
-## Project structure
+## Structure du projet
 
-- `commands/` — command handlers
-- `lib/` — reusable bot logic and helpers
-- `data/` — configuration and persistent data
-- `assets/` — local media files used by the bot
-- `main.js` — bot entry point
+- `commands/` : commandes du bot
+- `lib/` : fonctions internes et utilitaires
+- `data/` : fichiers de configuration et données persistantes
+- `assets/` : images et fichiers médias du projet
+- `index.js` : point d’entrée principal du bot
+- `main.js` : gestion principale des messages et commandes
 
-## Requirements
+## Prérequis
 
-- Node.js 18+
+- Node.js 18 ou plus récent
 - npm
 - Git
-- A WhatsApp account for connection
+- FFmpeg recommandé pour les commandes audio/vidéo/sticker
+- Un compte WhatsApp pour connecter le bot
 
-## Installation
+## Installation sur PC, VPS ou serveur Linux
 
-### Recommended environment
-
-Use a desktop or VPS for the most stable setup:
+Cette méthode est la plus stable.
 
 ```bash
 git clone https://github.com/LUNARIS-CORP/BLUE_XMD.git
 cd BLUE_XMD
-npm install
-node index.js
-```
-
-### Termux (Android)
-
-On Android/Termux, the main blockers are native Node packages such as `sharp` and `sqlite3`. They often fail to compile on Android/arm64 and break `npm install`.
-
-Use this exact process:
-
-```bash
-pkg update && pkg upgrade -y
-pkg install git nodejs-lts python build-essential clang make -y
-cd ~/BLUE_XMD
-npm uninstall sharp sqlite3
-rm -rf node_modules package-lock.json
 npm install --legacy-peer-deps
 node index.js
 ```
 
-> Warning: on Termux, installation and runtime can sometimes fail because of native dependencies such as `sharp` and `sqlite3`. This is not guaranteed to work on every Android device or every Termux setup. For the most stable experience, use a desktop Linux, Windows, or VPS environment.
+Ensuite, suivez les instructions affichées dans le terminal pour connecter WhatsApp.
 
-## Run the bot
+## Installation sur Termux Android
+
+Sur Termux, certaines dépendances natives comme `sharp` et `sqlite3` peuvent échouer pendant l’installation, surtout sur Android/arm64. Dans cette version, elles sont optionnelles.
+
+Si `sqlite3` est absent, le bot utilise automatiquement des fichiers JSON. Si `sharp` est absent, le bot démarre quand même, mais certaines commandes image/sticker seront limitées.
+
+```bash
+pkg update && pkg upgrade -y
+pkg install git nodejs-lts python build-essential clang make ffmpeg -y
+git clone https://github.com/LUNARIS-CORP/BLUE_XMD.git
+cd BLUE_XMD
+npm install --legacy-peer-deps --omit=optional
+node index.js
+```
+
+Si le projet est déjà cloné sur votre téléphone :
+
+```bash
+cd ~/BLUE_XMD
+rm -rf node_modules
+npm install --legacy-peer-deps --omit=optional
+node index.js
+```
+
+## Mettre à jour le bot
+
+Pour récupérer les dernières modifications du dépôt :
+
+```bash
+cd ~/BLUE_XMD
+git pull
+npm install --legacy-peer-deps --omit=optional
+node index.js
+```
+
+Sur PC ou VPS, vous pouvez aussi utiliser :
+
+```bash
+npm install --legacy-peer-deps
+node index.js
+```
+
+## Démarrer le bot
+
+```bash
+npm start
+```
+
+ou directement :
 
 ```bash
 node index.js
 ```
 
-Then scan the QR code displayed in the terminal using WhatsApp Linked Devices.
+## Connexion WhatsApp
 
-## Usage
+Au premier lancement, le bot affiche les instructions de connexion dans le terminal. Utilisez WhatsApp, puis allez dans :
 
-Use commands in your WhatsApp groups or chats depending on the configured bot features.
+```text
+Paramètres > Appareils liés > Lier un appareil
+```
 
-## License
+Scannez le QR code ou entrez le code de jumelage si le bot en affiche un.
 
-This project is licensed under the MIT License.
+## Notes pour Termux
 
-## Important note
+- Utilisez `--omit=optional` si `sharp` ou `sqlite3` bloquent l’installation.
+- Les données SQLite seront remplacées par des fichiers JSON quand `sqlite3` n’est pas disponible.
+- Les commandes qui nécessitent `sharp`, comme certaines fonctions image ou sticker, peuvent être désactivées sur Termux.
+- Pour une expérience complète et plus stable, utilisez un VPS ou un serveur Linux.
 
-This bot is an independent and unofficial WhatsApp project. It is intended for learning, experimentation, and personal development. Use it responsibly and in compliance with WhatsApp policies.
+## Licence
+
+Ce projet est distribué sous licence MIT.
+
+## Avertissement
+
+BLUE_XMD est un projet WhatsApp indépendant et non officiel. Il est destiné à l’apprentissage, à l’expérimentation et à un usage personnel ou communautaire responsable. Respectez les conditions d’utilisation de WhatsApp et les lois applicables.
