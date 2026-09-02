@@ -2,7 +2,23 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=48&pause=1000&color=1E90FF&center=true&width=900&height=100&lines=BLUE_XMD;WhatsApp+Bot;Developed+by+LUNARIS" alt="BLUE_XMD title" />
+    <img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=88&pause=1000&color=1E90FF&center=true&width=1100&height=140&lines=BLUE_XMD;WhatsApp+Bot;Developed+by+LUNARIS" alt="BLUE_XMD title" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Project-BLUE_XMD-1E90FF?style=for-the-badge" alt="Project BLUE_XMD" />
+  <img src="https://img.shields.io/github/stars/LUNARIS-CORP/BLUE_XMD?style=for-the-badge" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/LUNARIS-CORP/BLUE_XMD?style=for-the-badge" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/watchers/LUNARIS-CORP/BLUE_XMD?style=for-the-badge" alt="GitHub watchers" />
+</div>
+
+<div align="center">
+  <a href="https://t.me/LUNARISCORP">
+    <img src="https://img.shields.io/badge/Telegram-Join%20Channel-0088CC?style=for-the-badge&logo=telegram" alt="Telegram" />
+  </a>
+  <a href="https://whatsapp.com/channel/0029VbD9z1YJf05TqVGLNo3c">
+    <img src="https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?style=for-the-badge&logo=whatsapp" alt="WhatsApp" />
   </a>
 </div>
 
@@ -16,7 +32,7 @@ BLUE_XMD is designed to be flexible, lightweight, and easy to customize. It uses
 
 ## Developed by
 
-This project is developed and maintained by me.
+This project is developed and maintained by LUNARIS.
 
 ## Features
 
