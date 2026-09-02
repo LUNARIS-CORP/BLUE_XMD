@@ -1,29 +1,25 @@
-# 🤖 L𝐔𝐍∆RIS
+# 🤖 BLUE_XMD
 
-Ce bot WhatsApp est personnalisé pour la gestion de groupe, les commandes fun et l’automatisation avec un style plus personnel et plus français.
+BLUE_XMD est un bot WhatsApp développé et maintenu par moi-même, avec un focus sur la gestion de groupe, les commandes fun, les outils d’automatisation et une expérience plus moderne et personnalisée.
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=LUNARIS;Multi+Device+Whatsapp+Bot;Personalisé+en+Français" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=BLUE_XMD;Multi+Device+Whatsapp+Bot;Developed+by+Owner" alt="Typing SVG" />
   </a> 
 </div> 
 
 <div align="center"> 
-  <a href="https://youtube.com/@LUNA-CORP"> 
-    <img src="https://github.com/LUNARIS-CORP/BLUE_XMD/blob/main/assets/bot_image.jpg" alt="LUNARIS" height="300"> 
-  </a> 
+  <img src="assets/bot_image.jpg" alt="BLUE_XMD" height="300"> 
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/github/followers/LUNARIS-CORP?style=for-the-badge&label=Followers" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/LUNARIS-CORP/BLUE_XMD?style=for-the-badge&label=Stars" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/LUNARIS-CORP/BLUE_XMD?style=for-the-badge&label=Forks" alt="Forks"/>
-  <img src="https://img.shields.io/github/watchers/LUNARIS-CORP/BLUE_XMD?style=for-the-badge&label=Watchers" alt="Watchers"/>
+  <img src="https://img.shields.io/badge/Project-BLUE_XMD-00C853?style=for-the-badge" alt="Project BLUE_XMD"/>
+  <img src="https://img.shields.io/badge/Developer-Owner-FF6D00?style=for-the-badge" alt="Developer Owner"/>
 </div>
 
 ---
 <div>
-  <a href="https://www.thordata.com/products/residential-proxies?ls=YouTube&lk=Knightbot" target="_blank">
+  <a href="https://www.thordata.com/products/residential-proxies?ls=YouTube&lk=BLUE_XMD" target="_blank">
     <img src="assets/thor.png" alt="ThorData Proxies" width="100%" />
   </a>
 </div>
@@ -40,7 +36,7 @@ Ce bot WhatsApp est personnalisé pour la gestion de groupe, les commandes fun e
 <br>
 
 <div align="left">
-  <a href="https://www.thordata.com/products/residential-proxies?ls=YouTube&lk=Knightbot" target="_blank">
+  <a href="https://www.thordata.com/products/residential-proxies?ls=YouTube&lk=BLUE_XMD" target="_blank">
     <img src="https://img.shields.io/badge/Try now-28a745?style=for-the-badge" alt="Try now"/>
   </a>
 </div>
@@ -48,24 +44,23 @@ Ce bot WhatsApp est personnalisé pour la gestion de groupe, les commandes fun e
 
 ## 🚀 Steps to Deploy Bot
 
-### Step 1: Fork the Repository
+### Step 1: Clone the Repository
 
-Click the button below to fork the bot repository to your GitHub account:
+Clone the project to your environment and start customizing it:
 
-<div align="center">
-  <a href="https://github.com/LUNARIS-CORP/BLUE-XMD/fork">
-    <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork the repository"/>
-  </a>
-</div>
+```bash
+git clone https://github.com/LUNARIS-CORP/BLUE_XMD.git
+cd BLUE_XMD
+```
 
 ---
 
 ### Step 2: Get Pair Code
 
-Deploy the bot and easily connect it to your WhatsApp account by pair code. Click the button below to deploy the bot on Replit.
+Deploy the bot and connect it to your WhatsApp account using the pair code method.
 
 <div align="center">
-  <a href="https://knight-bot-paircode.onrender.com" target="_blank">
+  <a href="https://bot-hosting.net/?aff=1068419752923508776" target="_blank">
     <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Easy%20Method-ff4d4d?style=for-the-badge" alt="Generate Pair Code"/>
   </a>
 </div>
@@ -130,9 +125,9 @@ For further customization and setup guidance, click the button below:
 
 ## 📖 About
 
-The Knight WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
+BLUE_XMD is a WhatsApp bot developed by me for efficient group management, automation, fun commands, and practical moderation tools. It uses the Baileys library to interact with the WhatsApp Web API and supports multi-device functionality.
 
-It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
+This project is actively maintained by the current developer of BLUE_XMD and is designed to be lightweight, customizable, and easy to extend with additional commands and features.
 
 ---
 
@@ -148,8 +143,8 @@ It is lightweight and can be easily customized to add more commands as per your 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/mruniquehacker/Knightbot-MD.git
-    cd Knightbot-MD
+    git clone https://github.com/LUNARIS-CORP/BLUE_XMD.git
+    cd BLUE_XMD
     ```
 
 2. **Install the dependencies:**
@@ -170,49 +165,33 @@ It is lightweight and can be easily customized to add more commands as per your 
 
 ---
 
-## ☕ Support Me
+## ☕ Support the Project
 
-<div align="center">
-
-<a href="https://buymeacoffee.com/mruniquehacker" target="_blank">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Developer-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee">
-</a>
-
-</div>
-
-If you find this project helpful and want to support the developer, consider buying me a coffee! Your support helps maintain and improve this open-source project.
-
-<div align="center">
-
-<img src="assets/bmc_qr.png" alt="Buy Me a Coffee QR Code" width="200">
-
-</div>
+If you find BLUE_XMD useful and want to support its development, you can support the project through my own GitHub profile or community channels.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/mruniquehacker/Knightbot-MD/blob/main/LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/LUNARIS-CORP/BLUE_XMD/blob/main/LICENSE) file for details.
 
 ---
 
 ## 🙌 Contributions
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mruniquehacker/Knightbot-MD/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/LUNARIS-CORP/BLUE_XMD/issues).
 
 ---
 
 ## 🌟 Show your support
 
-If you like this project, please give it a [⭐️ star on GitHub](https://github.com/mruniquehacker/Knightbot)!
+If you like this project, please give it a [⭐️ star on GitHub](https://github.com/LUNARIS-CORP/BLUE_XMD)!
 
 
 ## Credits
 
-- [LUN∆RIS ](https://github.com/mruniquehacker)
 - [Baileys](https://github.com/adiwajshing/Baileys)
-- [TechGod143](https://github.com/TechGod143) for pair code
-- [Dgxeon](https://github.com/Dgxeon) for pair code
+- Community contributors and testers of BLUE_XMD
 
 ---
 
@@ -237,8 +216,10 @@ This project is licensed under the MIT License. However, you must:
 
 ## 📜 Copyright Notice
 
-Copyright (c) 2026 L𝐔𝐍∆RIS. All rights reserved.
+Copyright (c) 2026 BLUE_XMD. All rights reserved.
 
 This project contains code from various open source projects:
 - Baileys (MIT License)
 - Other libraries as listed in package.json
+
+BLUE_XMD is developed and maintained by its current owner/developer. Any outdated references to previous branding or attribution should be considered obsolete.
