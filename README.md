@@ -87,7 +87,7 @@ npm install --legacy-peer-deps
 node index.js
 ```
 
-> Note: this project is best run on a desktop Linux, Windows, or VPS environment. Termux can work for testing, but native packages like `sharp` and `sqlite3` are frequently unstable on Android.
+> Warning: on Termux, installation and runtime can sometimes fail because of native dependencies such as `sharp` and `sqlite3`. This is not guaranteed to work on every Android device or every Termux setup. For the most stable experience, use a desktop Linux, Windows, or VPS environment.
 
 ## Run the bot
 
