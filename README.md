@@ -73,19 +73,21 @@ node index.js
 
 ### Termux (Android)
 
-On Android/Termux, `sqlite3` is the dependency that usually breaks the install. Remove it before installing the project dependencies:
+On Android/Termux, the main blockers are native Node packages such as `sharp` and `sqlite3`. They often fail to compile on Android/arm64 and break `npm install`.
+
+Use this exact process:
 
 ```bash
 pkg update && pkg upgrade -y
 pkg install git nodejs-lts python build-essential clang make -y
 cd ~/BLUE_XMD
-npm uninstall sqlite3
+npm uninstall sharp sqlite3
 rm -rf node_modules package-lock.json
 npm install --legacy-peer-deps
 node index.js
 ```
 
-> Note: the best environment for this project is still a desktop Linux, Windows, or VPS. Termux can work for testing, but native dependencies like `sqlite3` are often unstable on Android.
+> Note: this project is best run on a desktop Linux, Windows, or VPS environment. Termux can work for testing, but native packages like `sharp` and `sqlite3` are frequently unstable on Android.
 
 ## Run the bot
 
